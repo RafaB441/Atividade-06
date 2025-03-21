@@ -1,0 +1,8 @@
+valores01 = int(input("Digite o primeiro valor inteiro: "))
+valores02 = int(input("Digite o segundo valor inteiro: "))
+valores03 = int(input("Digite o terceiro valor inteiro: "))
+
+# Ordenando os valores em ordem decrescente
+valores_ordenados = sorted([valores01, valores02, valores03], reverse=True)
+
+print("Decrescente:", valores_ordenados)
